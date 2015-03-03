@@ -14,7 +14,7 @@ class Application < Sinatra::Base
     ENV['WELCOME_MSG']
   end
 
-  REPO = "hamxiaoz/bitbucket-activity"
+  REPO = "szanlongo/bitbucket-activity"
   LOG_FILE = "log"
 
   post '/commits' do
