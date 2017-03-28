@@ -14,7 +14,7 @@ class Application < Sinatra::Base
     ENV['WELCOME_MSG']
   end
 
-  REPO = "szanlongo/bitbucket-activity"
+  REPO = "szanlongo/external-activity"
   LOG_FILE = "log"
 
   post '/commits' do
